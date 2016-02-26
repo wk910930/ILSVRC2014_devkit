@@ -6,7 +6,7 @@ fprintf('DETECTION TASK\n');
 
 pred_file='demo.val.pred.det.txt';
 meta_file = '../data/meta_det.mat';
-eval_file = '../data/det_lists/val.txt';
+eval_file = '../data/det_lists/ilsvrc13_val2.txt';
 blacklist_file = '';
 
 optional_cache_file = '';
