@@ -4,13 +4,13 @@
 
 fprintf('DETECTION TASK\n');
 
-pred_file='demo.val.pred.det.txt';
+pred_file= '';
 meta_file = '../data/meta_det.mat';
 eval_file = '../data/det_lists/ilsvrc13_val2.txt';
 blacklist_file = '';
 
-optional_cache_file = '../data/ilsvrc13_det_val2_bbox.mat';
-gtruth_directory = '../data/ilsvrc13_det_val2_bbox';
+optional_cache_file = '../data/ground_truth/ilsvrc13_det_val2_bbox.mat';
+gtruth_directory = '../data/ground_truth/ilsvrc13_det_val2_bbox';
 
 fprintf('pred_file: %s\n', pred_file);
 fprintf('meta_file: %s\n', meta_file);
