@@ -7,7 +7,7 @@ fprintf('DETECTION TASK\n');
 pred_file='demo.val.pred.det.txt';
 meta_file = '../data/meta_det.mat';
 eval_file = '../data/det_lists/val.txt';
-blacklist_file = '../data/ILSVRC2014_det_validation_blacklist.txt';
+blacklist_file = '';
 
 optional_cache_file = '';
 gtruth_directory = '';
