@@ -1,0 +1,11 @@
+<annotation>
+	<folder>ILSVRC2013_val</folder>
+	<filename>ILSVRC2013_val_00001896</filename>
+	<source>
+		<database>ILSVRC_2013</database>
+	</source>
+	<size>
+		<width>242</width>
+		<height>243</height>
+	</size>
+</annotation>
